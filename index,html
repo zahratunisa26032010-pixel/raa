@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kopi Pinggir Jalan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f1ea;
+      color: #333;
+    }
+
+    header {
+      background: #4b2e2e;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .menu {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .menu h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #4b2e2e;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #6b3e26;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #c26d00;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background: #4b2e2e;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kopi Pinggir Jalan</h1>
+    <p>Nikmati kopi hangat dengan suasana santai</p>
+  </header>
+
+  <section class="menu">
+    <h2>Menu Kopi</h2>
+
+    <div class="menu-grid">
+
+      <div class="card">
+        <h3>Kopi Hitam</h3>
+        <p>Kopi tradisional dengan rasa kuat.</p>
+        <div class="price">Rp10.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Kopi Susu</h3>
+        <p>Perpaduan kopi dan susu creamy.</p>
+        <div class="price">Rp15.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Es Kopi Gula Aren</h3>
+        <p>Segar dan manis alami gula aren.</p>
+        <div class="price">Rp18.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Cappuccino</h3>
+        <p>Kopi dengan foam lembut.</p>
+        <div class="price">Rp20.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Latte</h3>
+        <p>Espresso dengan susu hangat.</p>
+        <div class="price">Rp22.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Americano</h3>
+        <p>Espresso dengan tambahan air panas.</p>
+        <div class="price">Rp17.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Mochaccino</h3>
+        <p>Campuran kopi dan coklat.</p>
+        <div class="price">Rp23.000</div>
+      </div>
+
+      <div class="card">
+        <h3>Vietnam Drip</h3>
+        <p>Kopi khas Vietnam dengan susu.</p>
+        <div class="price">Rp25.000</div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Kopi Pinggir Jalan
+  </footer>
+
+</body>
+</html>
